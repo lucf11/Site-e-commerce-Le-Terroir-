@@ -1,0 +1,56 @@
+.list_panier{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.list_panier .contain{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	width: 80%;
+	padding-bottom: 20px ;
+
+}
+
+.descContain{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50%;
+
+}
+.descContain .name{
+	margin-bottom: 10px;
+}
+.descContain .descProduit{
+	padding-top: 20px;
+}
+
+a.suppr{
+	color: black;	
+}
+
+button{
+	padding: 10px;
+}
+
+button.command{
+	margin-left: 15px;
+}
+
+
+
+.main_panier .list_panier .contain img{
+	width: 400px;
+	height: 300px;
+}
+
+.list_panier .montant{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}

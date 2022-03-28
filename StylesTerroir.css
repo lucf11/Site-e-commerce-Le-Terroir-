@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Libre+Baskerville&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+}
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    /*font-family: 'Playfair Display', serif;*/
+
+}
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgba(66, 61, 61, 0.973);
+    background-color: white;
+}
+nav h1{
+    color:black;
+    font-family: Saudagar, serif;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    transition: border 0.3s ease-in-out;
+    border-bottom: 1px solid transparent;
+}
+nav .onglets a:hover{
+    border-color:black;
+}
+nav .onglets{
+    margin-top : 3px;
+    margin-left: 300px;
+    
+}
+nav a.atitre {
+    text-decoration: none;
+}
+
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('plateau3.jpg') no-repeat scroll 0 0 / 100% auto;
+    background-size: cover;
+    color:white;
+    padding: 40px;
+}
+header h1{
+    font-family: Saudagar, serif;
+    font-size:50px;
+
+
+}
+header h4{
+    margin-top: -20px;
+    font-size:20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    
+}
+header button{
+    padding : 10px 20px;
+    background-color: white;
+    color: black;
+    border:none;
+    font-family: Saudagar, serif;
+    outline:none;
+    cursor:pointer;
+    font-size:20px;
+}
+
+/*début du style pour le menu*/
+
+
+/*fin du style pour le menu*/
+
+
+
+@font-face{
+    font-family: Saudagar;
+    src : url(Polices/Saudagar.ttf);
+}
+
+
+.main{
+    /*margin-top:40px;*/
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white no-repeat scroll 0 0 / 100% auto;
+}
+.main .content .card{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.main .content .card .left{
+    flex : 0 0 30%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+.main .content .card.right{
+    flex : 0 0 70%;
+}
+.main .content .card img{
+    height: 400px;
+    width: 700px;
+    margin-top: 5px;
+}
+footer{
+    margin-top: 40px;
+    border-top: solid 5px #6f6f6f;
+    background-color: black;
+    color: white;
+    padding: 30px 100px;
+}
+footer h1{
+    font-family: 'Playfair  Display', serif;
+    border-bottom: solid 1px white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+footer .services .service{
+    margin-right: 30px;
+    padding : 10px;
+
+
+}
+footer .services .service  p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181)
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card{
+        margin:10px;
+    }
+    .main .content .card img{
+        height:200px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        margin-top: 400px;
+        padding : 30px;
+        height: 120vh;
+    }
+    div.content{
+        height: 100vh;
+    }
+    footer .services .service  p{
+        max-width: 300px;
+        font-size: small;
+    }
+}
+
