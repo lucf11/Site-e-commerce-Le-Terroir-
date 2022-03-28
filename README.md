@@ -1,2 +1,1 @@
-# Projet-PHP
-GitHub du projet S3 en php
+Site e-commerce "Le Terroir", projet effectué dans le cadre du cours de PHP en deuxième année de DUT Informatique à l'IUT de Montpellier-Sète. Ce site web a été réalisé en HTML / CSS et PHP, en équipe de 3.
